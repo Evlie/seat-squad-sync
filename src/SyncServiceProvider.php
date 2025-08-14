@@ -123,4 +123,14 @@ class SyncServiceProvider extends AbstractSeatPlugin
     {
         return 'cryptaeve';
     }
+
+        /**
+     * Return the plugin installed version.
+     *
+     * @return string
+     */
+    public function getVersion(): string
+    {
+        return config('sync.config.version');
+    }
 }
