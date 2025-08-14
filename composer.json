@@ -2,7 +2,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Evlie/seat-squad-sync"
+            "url": "https://github.com/Evlie/seat-squad-sync.git"
         }
     ],
     "name": "cryptaeve/seat-squad-sync",
@@ -31,6 +31,7 @@
     },
     
     "require": {
+        "Evlie/seat-squad-sync": "master"
         "eveseat/services": "^5.0",
         "eveseat/eveapi": "^5.0",
         "eveseat/web": "^5.0"
